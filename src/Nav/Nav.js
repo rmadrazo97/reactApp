@@ -8,7 +8,7 @@ function Nav() {
             <a class="active" href="#home">Alejandro Madrazo</a>
             <a href="#about">About me</a>
             <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <a href="#contact">Contact me</a>
         </div>
     );
 }
