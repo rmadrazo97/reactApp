@@ -7,19 +7,19 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>
+          Alejandro Madrazo
+        </h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This is my portfolio app built with react
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <span>
+          Email: jmadrazo7@gmail.com
+        </span>
+
       </header>
-    </div>
+    </div >
   );
 }
 
