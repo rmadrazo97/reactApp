@@ -7,7 +7,7 @@ import Examples from './Components/Examples'
 import Skill from './Components/Skill';
 import Card from './Components/Card'
 import cardsData from './Data/cardsData'
-
+import ClassComponent from './Components/ClassComponent'
 
 function App() {
     const cardsComponents = cardsData.map(data => {
@@ -51,6 +51,9 @@ function App() {
             <div style={{ backgroundColor: 'lightgray', padding: '2vw' }}>
                 {cardsComponents}
             </div>
+            <ClassComponent
+                txtparam='hola jeje! :)'
+            />
             <Footer />
         </React.StrictMode>
     );
