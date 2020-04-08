@@ -4,20 +4,30 @@ import logo from './assets/logo.svg';
 
 
 function Banner() {
+    var name = 'Alejandro',
+        lastname = 'Madrazo';
+
+    const date = new Date();
+
+
     return (
         <div className="App">
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
                 <h1>
-                    Alejandro Madrazo
-        </h1>
+                    {`${name} ${lastname}`}
+                </h1>
                 <p>
-                    This is my portfolio app built with react
+                    Software Architect
         </p>
 
                 <span>
                     Email: jmadrazo7@gmail.com
-        </span>
+                </span>
+                <p>
+                    {` Time: ${date.getHours() % 12} o'clock `}
+                    with {date.getMinutes()} minutes
+                </p>
 
             </header>
         </div >
