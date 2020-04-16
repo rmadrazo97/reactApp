@@ -8,6 +8,9 @@ import Skill from './Components/Skill';
 import Card from './Components/Card'
 import cardsData from './Data/cardsData'
 import ClassComponent from './Components/ClassComponent'
+import StateExample from './Components/StateExample'
+import ConditionalMaster from './Components/ConditionalMaster';
+
 
 function App() {
     const cardsComponents = cardsData.map(data => {
@@ -54,6 +57,9 @@ function App() {
             <ClassComponent
                 txtparam='hola jeje! :)'
             />
+            <StateExample />
+            <hr></hr>
+            <ConditionalMaster />
             <Footer />
         </React.StrictMode>
     );
@@ -71,4 +77,8 @@ REFERENCE
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findindex
+
+REACT EVENTS
+https://reactjs.org/docs/events.html#supported-events
+
 */
